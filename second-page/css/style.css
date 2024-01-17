@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+.container {
+  background-color: #e4985a;
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 300px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1em;
+}
+.hero__title {
+  text-align: center;
+  margin: 1em 0;
+}
+.hero__time {
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.hero__button {
+  margin-top: 2em;
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+  color: lightseagreen;
+  background-color: black;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.hero__button:hover {
+  background-color: #0d245b;
+}
+@media (max-width: 600px) {
+  .hero__button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .crypto__list {
+    padding: 2em 0;
+  }
+}
+
+.crypto-symbol {
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */
