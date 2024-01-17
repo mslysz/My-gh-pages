@@ -1,0 +1,57 @@
+@import 'reset';
+@import 'variables';
+
+
+.container {
+  background-color: $primaryColor;
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 300px;
+  @media(max-width: $mobile){
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+  &__title {
+   text-align: center;
+    margin: 1em 0;
+  }
+  &__time {
+    border-bottom: 2px solid $blackColor;
+    padding: 10px;
+  }
+  &__button {
+    margin-top: 2em;
+    padding: 10px 20px;
+    font-size: 24px;
+    border:none;
+    border-radius: 20px;
+    color: $lightGreen;
+    background-color: $blackColor;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+    background-color: $darkBlue;  
+    }
+    @media(max-width: $mobile){
+      font-size: 18px;
+    }
+  }
+}
+.crypto__list{
+  @media(max-width: $mobile){
+    padding: 2em 0;
+  }
+}
+.crypto-symbol {
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+}
