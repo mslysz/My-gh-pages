@@ -58,4 +58,4 @@ I still need to focus on improving the spelling of semantic code, using the BEM 
 
 ## Author
 
-- Frontend Mentor - [@mslysz](https://www.frontendmentor.io/profile/mslysz)
+- Frontend Mentor - [@mslysz](https://mslysz.github.io/My-gh-pages/first-page/)
