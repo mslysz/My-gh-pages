@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://mslysz.github.io/)
+- Live Site URL: (https://mslysz.github.io/My-gh-pages/first-page/)
 
 ## My process
 
