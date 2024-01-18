@@ -27,10 +27,6 @@ Author: [mslysz]
 
 This project is licensed under the MIT License.
 
-### MIT License
-
-The MIT License is a permissive open-source license that allows a broad range of uses, modification, and distribution. It grants users the freedom to use the software for any purpose, with only minimal restrictions to ensure the code's availability and the rights of the original author.
-
 ### Links
 
 - Live Site URL: (https://mslysz.github.io/My-gh-pages/second-page/)
