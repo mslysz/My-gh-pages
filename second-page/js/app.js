@@ -51,7 +51,7 @@ const showPrices = (data, cryptoSymbols) => {
       if (cryptoPrice !== undefined) {
         const item = document.createElement('div');
         item.className = 'price';
-        const imagePath = `/image/${symbol.toLowerCase()}.png`;
+        const imagePath = `./image/${symbol.toLowerCase()}.png`;
         item.innerHTML = `<div class="crypto-symbol"> Current <img class="crypto-logo" src="${imagePath}" alt="${symbol}-logo"> <strong>${symbol}</strong> price : $${cryptoPrice}</div>`;
         resultArea.appendChild(item);
       } else {
