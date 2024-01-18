@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', updateDateTime);
 //functions that retrieve current cryptocurrency prices
 
 const getCryptoPrice = () => {
-  updateDateTime();
   const cryptoSymbols = ['bitcoin', 'ethereum'];
   const apiUrl = `https://api.coingecko.com/api/v3/simple/price?ids=${cryptoSymbols.join(
     ','
@@ -37,6 +36,7 @@ const getCryptoPrice = () => {
 
   const currentDate = new Date();
   console.log(currentDate);
+  updateDateTime();
 };
 
 const showPrices = (data, cryptoSymbols) => {
@@ -46,12 +46,13 @@ const showPrices = (data, cryptoSymbols) => {
     resultArea.innerHTML = '';
 
     cryptoSymbols.forEach((symbol) => {
-      const item = document.createElement('div');
-      item.className = 'price';
       const cryptoPrice = data[symbol]?.usd;
 
       if (cryptoPrice !== undefined) {
-        item.innerHTML = `<div class="crypto-symbol"> Current <strong>${symbol}</strong> price : $${cryptoPrice}</div>`;
+        const item = document.createElement('div');
+        item.className = 'price';
+        const imagePath = `/image/${symbol.toLowerCase()}.png`;
+        item.innerHTML = `<div class="crypto-symbol"> Current <img class="crypto-logo" src="${imagePath}" alt="${symbol}-logo"> <strong>${symbol}</strong> price : $${cryptoPrice}</div>`;
         resultArea.appendChild(item);
       } else {
         console.error(`No data found for ${symbol}`);
