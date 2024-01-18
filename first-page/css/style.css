@@ -16,6 +16,11 @@ body {
   height: 100vh;
   margin: 0 auto;
 }
+@media screen and (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
 @media screen and (max-width: 790px) {
   .grid-container {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -106,7 +111,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 .menu__onoff-item {
   padding: 10px;

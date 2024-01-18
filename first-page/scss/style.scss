@@ -22,6 +22,9 @@ body{
   max-width: 1440px;
   height: 100vh;
   margin: 0 auto;
+  @media screen and (max-width: 900px) {
+    grid-template-columns: auto auto;
+  }
   @media screen and (max-width:790px)  {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
@@ -92,7 +95,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 400px ;
+    margin-bottom: 100px ;
   }
   &__onoff-item {
     padding: 10px;
