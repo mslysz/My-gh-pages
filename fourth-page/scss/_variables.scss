@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+$blackColor: #2E323F;
+$grayColor:#3B4050;
+$lightgrayColor: #6F737F;
+$whiteColor: #FFFFFF;
+$goldColor: #A59678;
+$veryLightGray:#cfd0d2;
+$boldFont : 'Oswald', 'sans-serif';
+$regularFont: 'Montserrat', sans-serif;
+
+@mixin boldFont {
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+@mixin buttonStyles {
+  background-color: $goldColor;
+  border-radius: 100px;
+  padding: 0.1em 0.5em;
+}
+$root-font-size: 10px;
