@@ -1,6 +1,6 @@
 # Welcome to the Unity Logistics Website
 
-This website was created using Bootstrap 5 and the SASS preprocessor. It serves as a landing page for Unity Logistics, an international transportation company specializing in freight transport worldwide.
+This website was created using Bootstrap 5 and the SASS preprocessor. It serves as a landing page for Unity Logistics, an international transportation company specializing in freight transport worldwide. (This is an example of a page that can be used as a landing page for a transport company.)
 
 ## Technologies Used:
 
