@@ -75,6 +75,10 @@ fieldset {
   background-color: black;
 }
 
+.active-btn {
+  color: #ffff27;
+}
+
 html {
   scroll-behavior: smooth;
 }
